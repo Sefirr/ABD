@@ -1,0 +1,33 @@
+<!ELEMENT eurovision (artistas*, ediciones*)>
+
+	<!ELEMENT artistas (artista+)>
+	
+		<!ELEMENT artista (nombre, descripcion?, foto?)>
+			<!ELEMENT nombre (#PCDATA)>
+			<!ELEMENT descripcion (#PCDATA)>
+			<!ELEMENT foto (#PCDATA)>
+			
+		<!ATTLIST artista id ID #REQUIRED>
+		
+		
+	<!ELEMENT ediciones (edicion+)>
+	
+		<!ELEMENT edicion (anyo, ciudad, paise, participantes)>
+			<!ELEMENT anyo (#PCDATA)>
+			<!ELEMENT ciudad (#PCDATA)>
+			<!ELEMENT paise (#PCDATA)>
+			
+			<!ELEMENT participantes (participante+)>
+				<!ELEMENT participante (paisp, representante, cancion, orden, votos+)>
+					<!ELEMENT paisp (#PCDATA)>
+					<!ELEMENT representante (#PCDATA)>
+					<!ATTLIST representante id IDREF #REQUIRED>
+					<!ELEMENT cancion (#PCDATA)>
+					<!ELEMENT orden (#PCDATA)>
+					
+					<!ELEMENT votos (voto+)>
+						<!ELEMENT voto (receptor, puntuacion)>
+							<!ELEMENT receptor (#PCDATA)>
+							<!ELEMENT puntuacion (#PCDATA)>
+							
+		<!ATTLIST edicion id ID #REQUIRED>

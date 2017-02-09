@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="Eurovision" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="eurovision">
+		<complexType>
+			<sequence>
+				<element name="artistas">
+					<complexType>
+						<sequence>
+							<element name="artista">
+								<complexType>
+									<sequence>
+										<element name="artista">
+											<complexType>
+												<sequence>
+													<element name="nombre" type="string">
+													</element>
+													<element name="descripcion" type="string">
+													</element>
+													<element name="foto" type="string">
+													</element>
+												</sequence>
+												<attribute name="id" type="ID" use="required">
+												</attribute>
+											</complexType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="ediciones">
+					<complexType>
+						<sequence>
+							<element name="edicion">
+								<complexType>
+									<sequence>
+										<element name="anyo" type="string">
+												</element>
+										<element name="ciudad" type="string">
+												</element>
+										<element name="paise" type="string">
+												</element>
+										<element name="participantes">
+											<complexType>
+												<sequence>
+													<element name="participante">
+														<complexType>
+															<sequence>
+																<element name="paisp" type="string">
+																</element>
+																<element name="representante">
+																	<complexType>
+																		<attribute name="representante" type="IDREF">
+																		</attribute>
+																	</complexType>
+																</element>
+																<element name="cancion" type="string">
+																</element>
+																<element name="orden" type="int">
+																</element>
+																<element name="votos">
+																	<complexType>
+																		<sequence>
+																			<element name="voto">
+																				<complexType>
+																					<sequence>
+																						<element name="receptor" type="string">
+																						</element>
+																						<element name="puntuacion" type="int">
+																						</element>		
+																					</sequence>
+																				</complexType>
+																			</element>
+																		</sequence>
+																	</complexType>
+																</element>
+															</sequence>
+															<attribute name="id" type="ID" use="required">
+															</attribute>
+														</complexType>
+													</element>
+												</sequence>
+											</complexType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

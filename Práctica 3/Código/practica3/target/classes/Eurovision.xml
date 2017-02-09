@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eurovision SYSTEM "Eurovision.dtd">
+<eurovision>
+	<artistas>
+		<artista id="a1">
+			<nombre>Metallica</nombre>
+			<descripcion>Banda de heavy metal</descripcion>
+			<foto>http://upload.wikimedia.org/wikipedia/commons/b/b7/Metallica_logo.png</foto>
+		</artista>
+
+		<artista id="a2">
+			<nombre>ACDC</nombre>
+			<descripcion>Banda de Hard Rock clasica</descripcion>
+			<foto>http://img4.wikia.nocookie.net/__cb20110724173045/logopedia/images/1/10/AC_DC_logo.jpg</foto>
+		</artista>
+		
+		<artista id="a3">
+			<nombre>Black Sabbath</nombre>
+			<descripcion>Pioneros del Heavy Metal</descripcion>
+			<foto>http://i437.photobucket.com/albums/qq98/ricardobq666/BlackSabbathLogo2.jpg</foto>
+		</artista>
+		
+		<artista id="a4">
+			<nombre>Led Zeppelin </nombre>
+			<descripcion>Banda cuya cancion estrella es Stairway to Heaven</descripcion>
+		</artista>
+		
+		<artista id="a5">
+			<nombre>Celtas Cortos </nombre>
+			<descripcion>Banda cuya cancion estrella es 20 de abril</descripcion>
+		</artista>
+		
+<!-- 	<artista>
+			<nombre> </nombre>
+			<descripcion></descripcion>
+			<foto></foto>
+		</artista> Ejemplo de entidad artista -->
+	</artistas>
+	<ediciones>
+		<edicion id="e1">
+			<anyo>2014</anyo>
+			<ciudad>Rio de Janeiro</ciudad>
+			<paise>Brasil</paise>
+			<participantes>
+				<participante>
+					<paisp>Espanya</paisp>
+					<representante id="a5"/>
+					<cancion>La senda del tiempo</cancion>
+					<orden>1</orden>
+					<votos>
+						<voto>
+							<receptor>Rusia</receptor>
+							<puntuacion>5</puntuacion>
+						</voto>
+						<voto>
+							<receptor>Bosnia</receptor>
+							<puntuacion>1</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Andorra</paisp>
+					<representante id="a3"/>
+					<cancion>War Pigs</cancion>
+					<orden>5</orden>
+					<votos>
+						<voto>
+							<receptor>Bosnia</receptor>
+							<puntuacion>5</puntuacion>
+						</voto>
+						
+						<voto>
+							<receptor>Alemania</receptor>
+							<puntuacion>7</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Rusia</paisp>
+					<representante id="a4"/>
+					<cancion>Stairway to Heaven</cancion>
+					<orden>2</orden>
+					<votos>
+						<voto>
+							<receptor>Espa�a</receptor>
+							<puntuacion>7</puntuacion>
+						</voto>
+					</votos>
+					
+					<votos>
+						<voto>
+							<receptor>Andorra</receptor>
+							<puntuacion>6</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Alemania</paisp>
+					<representante id="a1"/>
+					<cancion>Enter Sandman</cancion>
+					<orden>3</orden>
+					<votos>
+						<voto>
+							<receptor>Rusia</receptor>
+							<puntuacion>12</puntuacion>
+						</voto>
+						<voto>
+							<receptor>Espa�a</receptor>
+							<puntuacion>10</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Bosnia</paisp>
+					<representante id="a2"/>
+					<cancion>Back in Black</cancion>
+					<orden>4</orden>
+					<votos>
+						<voto>
+							<receptor>Rusia</receptor>
+							<puntuacion>12</puntuacion>
+						</voto>
+						<voto>
+							<receptor>Andorra</receptor>
+							<puntuacion>8</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+			</participantes>
+		</edicion>
+		
+		<edicion id="e2">
+			<anyo>2015</anyo>
+			<ciudad>Madrid</ciudad>
+			<paise>Espa�a</paise>
+			<participantes>
+				<participante>
+					<paisp>Espa�a</paisp>
+					<representante id="a5"/>
+					<cancion>20 de Abril</cancion>
+					<orden>5</orden>
+					<votos>
+						<voto>
+							<receptor>Andorra</receptor>
+							<puntuacion>7</puntuacion>
+						</voto>
+						<voto>
+							<receptor>Alemania</receptor>
+							<puntuacion>10</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Andorra</paisp>
+					<representante id="a3"/>
+					<cancion>Iron Man</cancion>
+					<orden>2</orden>
+					<votos>
+						<voto>
+							<receptor>Espa�a</receptor>
+							<puntuacion>12</puntuacion>
+						</voto>
+						
+						<voto>
+							<receptor>Alemania</receptor>
+							<puntuacion>11</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Rusia</paisp>
+					<representante id="a4"/>
+					<cancion>Whole lotta Love</cancion>
+					<orden>1</orden>
+					<votos>
+						<voto>
+							<receptor>Espa�a</receptor>
+							<puntuacion>10</puntuacion>
+						</voto>
+					</votos>
+					
+					<votos>
+						<voto>
+							<receptor>Alemania</receptor>
+							<puntuacion>1</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Alemania</paisp>
+					<representante id="a1"/>
+					<cancion>Master of Puppets</cancion>
+					<orden>3</orden>
+					<votos>
+						<voto>
+							<receptor>Rusia</receptor>
+							<puntuacion>1</puntuacion>
+						</voto>
+						<voto>
+							<receptor>Espa�a</receptor>
+							<puntuacion>8</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+				
+				<participante>
+					<paisp>Bosnia</paisp>
+					<representante id="a2"/>
+					<cancion>T.N.T</cancion>
+					<orden>4</orden>
+					<votos>
+						<voto>
+							<receptor>Rusia</receptor>
+							<puntuacion>12</puntuacion>
+						</voto>
+						<voto>
+							<receptor>Andorra</receptor>
+							<puntuacion>3</puntuacion>
+						</voto>
+					</votos>
+				</participante>
+			</participantes>
+		</edicion>
+		
+<!---		<edicion>
+			<anyo></anyo>
+			<ciudad></ciudad>
+			<paisp></paisp>
+			<participantes>
+				<participante>
+					<paisp></paisp>
+					<representante></representante>
+					<cancion></cancion>
+					<orden><orden>
+				<participante>
+			</participantes>
+			<votos>
+				<voto>
+					<emisor></emisor>
+					<receptor></receptor>
+					<puntuacion></puntuacion>
+				</voto>
+			</votos>
+		</edicion> Ejemplo de entidad edicion-->
+	</ediciones>
+
+</eurovision>
